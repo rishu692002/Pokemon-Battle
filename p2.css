@@ -1,0 +1,182 @@
+@import url('https://fonts.cdnfonts.com/css/arcade-classic');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background-color: #070F39;
+    height: 100vh;
+}
+.gameheader{
+    margin: 0;
+    text-align: center;
+    font-family: 'ArcadeClassic', sans-serif;
+    color: aliceblue;
+    font-size: 50px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d0688;
+    text-align: center;
+    height: 8%;
+}
+.main{
+    height: 92%;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+.screen1{
+    height: 55%;
+    width: 40%;
+    background-color: rgb(36, 25, 68);  
+    border-radius: 25px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 27px;
+    margin-bottom: 20px;
+}
+.screen2{
+    position: relative;
+    width: 93%;
+    height: 97%;
+    margin: 20px 0;
+    background: rgb(0, 0, 0);
+    border-radius: 50% / 10%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-indent: .1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.screen2:before{
+    content: '';
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: -5%;
+    left: -5%;
+    background: inherit;
+    border-radius: 5% / 50%;
+}
+.console1{
+    height: 17%;
+    width: 40%;
+    background-color: rgb(3, 8, 35);
+    padding: 17px;
+    border: 10px solid rgb(36, 25, 68);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.pad{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(34 38 51);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'ArcadeClassic', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid #0a0a0a;
+}
+.three{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 1rem;
+}
+.select{
+    background-color: rgb(34 38 51);
+    text-align: center;
+    padding: 10px;
+    width: 110px;
+    font-family: 'ArcadeClassic', sans-serif;
+    font-size: 30px;
+    border: 7px solid #0a0a0a;
+    border-radius:10px;
+}
+.start{
+    background-color: rgb(34 38 51);
+    text-align: center;
+    padding: 10px;
+    width: 110px;
+    font-family: 'ArcadeClassic', sans-serif;
+    font-size: 30px;
+    border: 7px solid #0a0a0a;
+    border-radius: 10px;
+}
+.stick{
+    display: flex;
+}
+.image{
+    width: 130px;
+    height: 130px;
+}
+.charizard{
+    height:200px;
+    width: 200px;
+    z-index: 2;
+    position: relative;
+}
+.blastoise{
+    height:168px;
+    width: 168px;
+    z-index: 2;
+    position: relative;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    z-index: 2;
+    position: relative;
+    transform: rotateY(180deg);
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    z-index: 2;
+    position: relative;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    z-index: 2;
+    position: relative;
+    font-family: 'ArcadeClassic', sans-serif;
+    font-size: 40px;
+    height: 100%;
+    width: 200px;
+}
+.char{
+    font-family: 'ArcadeClassic', sans-serif;
+    font-size: 27px;
+    transform: rotateY(180deg);
+}
+.blas{
+    font-family: 'ArcadeClassic', sans-serif;
+    font-size: 27px;
+    margin-top: 32px;
+}
